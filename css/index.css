@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    max-width: 120rem;
+    font-size: 1rem;
+  }
+
+.main2 {
+    width: 100vw; 
+    height: 115vh;
+    background-color: #FFFFFF;
+
+}
+
+.nav{
+    height: 3vh;
+    background-color: #FFFFFF;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+}
+.section1{
+    display: flex;
+    height: 95vh;
+}
+.section1 div{ 
+}
+.sidenav {
+    padding-left: 1rem;
+    width: 20%; 
+    height: 115vh; 
+}
+
+.section1 .sidenav{
+    padding-top: 2rem;
+}
+.section1 .sidenav .list{
+    padding-top: 4rem;
+    height: 50%;
+}
+.section1 .sidenav .logo10{
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.rem;
+
+}
+
+.section1 .sidenav .logo11 {
+    height: 3rem;
+    font-size: xx-large;
+    text-decoration: none;
+    gap: 1rem;
+    padding-left: 3rem;  
+}
+
+sidenav .list .group a{
+    color: black;
+}
+.sidenav .list .group a:hover{
+    background-color: saddlebrown;
+    color: white;
+} 
+
+.sidenav .logo10 .text{
+    padding-top: 0.8rem;
+}
+
+.group .link1{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.group .link1  {
+    display: flex; 
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+.group .link2{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.group .link2{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+
+}
+
+
+.group .link3{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.group .link3 {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+.group .link4{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+.group .link4 {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+
+
+.group .link5{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+    
+}
+.group .link5 {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+
+.group .link6{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+.group .link6 {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+.main2 .search1{
+    height: 10vh;
+    display: flex;
+}
+.main2 .search1 .searchbar{
+    width: 60vw;
+}
+form.search input[type=text] {
+    height: 5rem;
+    font-size: 20px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: transparent;
+  }
+
+
+.main2 .search1 .others{
+    width: 20vw;
+    display: flex;
+    align-content: end;
+    padding-right: 0rem;
+    padding-left: 8rem;
+    padding-top: 1rem;
+}
+.main2 .search1 .others .icon1{
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-top: 0.5rem;
+}
+.main2 .search1 .others .icon2{
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.main2 .search1 .others .icon3{
+    height: 70%;
+    width: 30%;
+    text-align: center;
+}
+
+.main2 .employees{
+    height: 10vh; 
+    display: flex; 
+    padding-left: 2rem; 
+}
+.main2 .employees .employees100{
+    height: 100%;
+    width: 70%;
+    padding-top: 1.8rem;
+}
+.main2 .employees .bottom{
+    padding-left: 2rem;
+    width: 30%;
+    display: flex;
+}
+.employees .bottom .bottom1{
+    width: 56%;
+    padding-top: 1.2rem;
+    padding-left: 9rem;
+}
+.employees .bottom .bottom2{
+    width: 38%;
+    padding-top: 1.2rem;
+}
+
+.main2 .main3{
+    height: 95vh;
+}
+.main2 .main3 .allemployees ul {
+    padding-left: 2rem;
+    gap: 1rem;
+    height: 5vh;
+   
+}
+.main2 .main3 .allemployees ul li {
+    /* padding-top: 1rem; */
+    display: inline-block;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+.allemployees ul li a{
+    text-decoration: none;
+}
+.allemployees a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.main2 .main3 .search2 {
+    padding-left: 2rem;
+    height: 7vh;
+    display: flex;
+}
+
+.main3 .search2 .search21{
+    width: 80%;
+}
+.main3 .search2 #search{
+    padding: 16px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.main3 .search2 .search22{
+    width: 20.8%;
+    display: flex;
+    /* gap: 1rem; */
+    padding-left: 1rem;
+}
+.search2 .search22 .filterlogo1{
+    padding-left: 4.5rem;
+    padding-top: 0.5rem;
+    width: 60%;
+}
+.search2 .search22 .filterlogo2{
+    padding-top: 0.5rem;
+    width: 30%;
+}
+
+.main2 .main3 .mainemployee{
+    display: flex;
+    height: 75vh;
+}
+
+.main2 .mainemployee .name{
+    padding-left: 2rem;
+    width: 26vw;
+}
+
+.main2 .mainemployee .employeeid{
+    width: 12vw;
+}
+
+.main2 .mainemployee .role{
+    width: 12vw;
+}
+
+.main2 .mainemployee .status{
+    width: 10vw;
+}
+
+.main2 .mainemployee .team{
+    width: 15vw;
+}
+
+.main2 .main3 .footer{
+    height: 7.5vh;
+}
+
+.main3 .footer{
+    display: flex;
+    padding-right: 2.1rem;
+    padding-left: 2rem;
+    justify-content: space-between;
+}
+
+.main3 .footer .fbottom1{
+    padding-top: 0.9rem;
+}
+.main3 .footer .fbottom2{
+    padding-top: 0.9rem;
+}
+.main3 .footer .fbottom3{
+    padding-top: 0.9rem;
+}

@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    max-width: 120rem;
+    font-size: 1rem;
+  }
+
+.main2 {
+    width: 100vw; 
+    height: 115vh;
+    background-color: #FFFFFF;
+
+}
+
+.nav{
+    height: 3vh;
+    background-color: #FFFFFF;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+}
+.section1{
+    display: flex;
+    height: 95vh;
+}
+.sidenav {
+    padding-left: 1rem;
+    width: 20%; 
+    height: 115vh; 
+}
+
+.section1 .sidenav{
+    padding-top: 2rem;
+}
+.section1 .sidenav .list{
+    padding-top: 4rem;
+    height: 50%;
+}
+.section1 .sidenav .logo10{
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.rem;
+
+}
+
+.section1 .sidenav .logo11 {
+    height: 3rem;
+    font-size: xx-large;
+    text-decoration: none;
+    gap: 1rem;
+    padding-left: 3rem;  
+}
+
+.sidenav .logo10 .text{
+    padding-top: 0.8rem;
+}
+
+.sidenav .list .group a{
+    color: black;
+}
+.sidenav .list .group a:hover{
+    background-color: saddlebrown;
+    color: white;
+} 
+
+.group .link1{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.group .link1  {
+    display: flex; 
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+.group .link2{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.group .link2{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+
+}
+
+.group .link3{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.group .link3 {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+
+.group .link4{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+.group .link4 {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+.group .link5{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+    
+}
+.group .link5 {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+
+.group .link6{
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+.group .link6 {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    font-size: x-large;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+
+.logout{
+    padding-top: 24rem;
+}
+
+.main2 .search1{
+    height: 10vh;
+    display: flex;
+}
+.main2 .search1 .searchbar{
+    width: 60vw;
+}
+form.search input[type=text] {
+    height: 5rem;
+    font-size: 20px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: transparent;
+  }
+
+
+.main2 .search1 .others{
+    width: 20vw;
+    display: flex;
+    align-content: end;
+    /* gap: 1rem; */
+    padding-right: 0rem;
+    padding-left: 8rem;
+    padding-top: 1rem;
+}
+.main2 .search1 .others .icon1{
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-top: 0.5rem;
+}
+.main2 .search1 .others .icon2{
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.main2 .search1 .others .icon3{
+    height: 70%;
+    width: 30%;
+    text-align: center;
+}
+
+.main2 .roles1{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    height: 15vh;
+    width: 100%;
+    /* display: flex;  */
+}
+.main2 .roles1 .roles2{
+    display: flex;
+    height: 10vh; 
+    width: 100%;
+}
+
+.main2 .roles1 .roles21{
+    padding-top: 1.8rem;
+    height: 100%; 
+    width: 95%;
+}
+
+/* popup start */
+
+.main2 .roles1 .button1{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    padding-top: 1.3rem;
+    gap: 0.7rem;
+}
+#popup {
+    width: 30rem;
+    height: 42rem;
+    padding: 1rem;
+    display: none;
+  }
+#popup .section2 {
+    width: 27.5rem;
+    height: 39.5rem;
+
+  }
+
+#popup .section2 .logo{
+    height: 10vh;
+}
+#popup .section2 .assignrole{
+    height: 10vh;
+}
+#popup .section2 .body{
+    height: 50vh;
+}
+#popup .section2 .body .search{
+    height: 5vh;
+    display: flex;
+}
+#popup .section2 .body .search1{
+    width: 98%;
+}
+#popup .section2 .search1 #search{
+    padding: 7px;
+    width: 350px;
+    font-size: 20px;
+}
+#popup .section2 .body .searchlogo{
+   padding: 0.5rem;
+}
+
+#popup .section2 .body  .member{
+    height: 45vh;
+}
+
+/* popup stop */
+.main2 .roles1 .all ul{
+    height: 2.7rem;
+}
+.roles1 .all ul li{
+    display: inline;
+    height: 5vh;
+}
+.all a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.main2 .forsearch{
+    padding-right: 1rem;
+    padding-left: 2rem;
+    height: 8vh;
+    display: flex;
+}
+
+.main2 .forsearch .search2{
+    width: 120%;
+    height: 100%;
+}
+.forsearch .search2 #search{
+    padding: 22px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.main2 .forsearch .searchfilter{
+    width: 30%;
+    display: flex;
+    padding-left: 2rem;
+}
+.forsearch .searchfilter .filterlogo1{
+    padding-left: 4.5rem;
+    padding-top: 0.5rem;
+    width: 60%;
+}
+.forsearch .searchfilter .filterlogo2{
+    padding-top: 0.5rem;
+    width: 50%;
+    padding-left: 1rem;
+}
+
+
+
+.main2 .nav{
+    height: 3rem;   
+}
+
+.main2 .nav ul li{
+    display: inline;
+    padding-top: 1rem;
+    height: 5vh;
+    padding-right: 1rem;
+    padding-left: 1.5rem;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.main2 .main3{
+    height: 77vh;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.main2 .main3 .main31{
+    width: 39vw;
+    /* padding-right: 3rem; */
+}
+.main2 .main3 .main31 .main311{
+    height: 38vh;
+}
+.main2 .main3 .main31 .main312{
+    height: 38vh;
+}
+
+.main2 .main3 .main32{
+    width: 39vw;
+}
+.main2 .main3 .main32 .main321{
+    height: 38vh;
+    
+}
+.main2 .main3 .main32 .main322{
+    height: 38vh;
+}
+
+
+
+
